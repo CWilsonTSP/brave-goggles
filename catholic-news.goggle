@@ -1,0 +1,9 @@
+! name: Catholic News
+! description: Grabs news from reputable Catholic sources
+! public: false
+! author: Chad Wilson
+
+$discard
+$boost,site=ncregister.com
+$boost,site=vaticannews.va
+$boost,site=pillarcatholic.com
